@@ -1,0 +1,34 @@
+.hours {
+    display: grid;
+    background: url("../images/hours-bg.jpg") center center;
+    background-size: cover;
+    grid-template-columns: 1;
+    color: #fff;
+    align-items: center;
+    justify-items: center;
+    font-weight: 400;
+    
+}
+
+.hours--title {
+    grid-column: 1 / -1;
+    margin: 2rem .5rem;
+}
+
+.address, .operating-hours {
+    margin: 2rem;
+}
+
+.operating-hours {
+    font-weight: 600;
+}
+
+.hours-open {
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 500px) {
+    .hours {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

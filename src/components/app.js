@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Nav from "./nav";
 import Landing from "./landing";
-import Location from "./location";
+import Hours from './hours';
+import GoogleMap from './google_map';
 import About from "./about";
 import Menu from "./menu";
 
@@ -11,9 +12,10 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Landing />
-        <Location />
-        <About />
+        <Hours />
         <Menu />
+        <GoogleMap />
+        <About />
       </div>
     );
   }

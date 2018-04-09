@@ -1,8 +1,11 @@
 import React from 'react';
+import menuData from './menu-data';
+import Appetizers from './appetizers';
+import './menu.css';
 
 const Menu = () => {
     return (
-        <div>Pizzas and stuff</div>
+        <Appetizers menu={menuData.appetizers} />
     )
 }
 
