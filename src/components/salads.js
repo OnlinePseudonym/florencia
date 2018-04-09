@@ -5,7 +5,18 @@ const Appetizers = (props) => {
         return (
             <div className="menu--item">
                 <h3 className="menu--item__name">{item.name}</h3>
-                <span className="menu--item__price">{item.price}</span>
+                {Array.isArray(item.price) ? ( item.price.map(size => {
+                    return (
+                        
+                        <span className="menu--item__price">
+                            {size.size[0].toUpperCase()} - {size.price}
+                            {/* <span className="menu--item__price-size">{size.size[0].toUpperCase()} - {size.price}</span>
+                            <span className="menu--item__price-price"> {size.price}</span> */}
+                        </span>                        
+                    )
+                })):(
+                    <span className="menu--item__price">{item.price}</span>
+                )}
                 <p className="menu--item__desc">{item.toppings.join(', ')}</p>
                 {(item.options && item.options.map(option => (
                     <div className="menu--item__addition">
