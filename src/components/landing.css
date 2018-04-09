@@ -1,0 +1,39 @@
+.landing {
+    height: 100vh;
+    background: url("../images/bg-dark.jpg") center center;
+    background-size: cover;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.landing--title-primary {
+    color: #d04a3a;
+    text-shadow: 1px 1px 5px #111111b0;
+    font-size: 5rem;
+/*     background: #111111cf; */
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.landing--title-secondary {
+    color: #fff;
+    text-shadow: 1px 1px 5px #1111115c;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    width: 100%;
+    grid-gap: 1rem;
+    align-items: center;
+    
+}
+.landing--title-secondary:before, .landing--title-secondary:after {
+    display: block;
+    content: '';
+    height: .25rem;
+    background: linear-gradient(to var(--direction, left), #111, transparent);
+}
+
+.landing--title-secondary:after {
+    --direction: right;
+}
