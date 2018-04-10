@@ -1,6 +1,11 @@
 .menu {
     display: grid;
     justify-content: center;
+    grid-template-columns: auto 600px auto;
+}
+
+.menu > * {
+    grid-column: 2;
 }
 
 .menu--tabs-list {
@@ -27,7 +32,7 @@
     padding: 1rem;
     display: grid;
     grid-auto-flow: column;
-    justify-items: center;
+    justify-items: end;
     width: 100%;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
 }
@@ -50,9 +55,15 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
+.menu--item__prices-salad {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+}
+
 .menu--item__price {
-    justify-self: center;
     font-weight: 600;
+    justify-self: end;
 }
 
 .menu--item__desc {

@@ -5,7 +5,7 @@ const Salads = (props) => {
         return (
             <div className="menu--item">
                 <h3 className="menu--item__name">{item.name}</h3>
-                <span className="menu--item__prices">
+                <span className="menu--item__prices-salad">
                     {Array.isArray(item.price) ? ( item.price.map(size => {
                         return (
                             <span className="menu--item__price">

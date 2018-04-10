@@ -1,18 +1,24 @@
-.hours {
-    display: grid;
+.location {
     background: url("../images/hours-bg.jpg") center center;
     background-size: cover;
-    grid-template-columns: 1;
     color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hours {
     align-items: center;
     justify-items: center;
+    display: grid;
+    grid-template-columns: 1;
     font-weight: 400;
-    
 }
 
 .hours--title {
     grid-column: 1 / -1;
-    margin: 2rem .5rem;
+    padding: 2rem .5rem;
+    text-align: center;
+    background: #111;
 }
 
 .address, .operating-hours {
@@ -28,6 +34,12 @@
 }
 
 @media only screen and (min-width: 500px) {
+    .location {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
     .hours {
         grid-template-columns: repeat(2, 1fr);
     }

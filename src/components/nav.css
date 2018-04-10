@@ -8,6 +8,7 @@
     padding: 1rem;
     align-items: center;
     justify-items: center;
+    z-index: 130000000;
   }
   
   .nav--logo {

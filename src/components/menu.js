@@ -8,7 +8,7 @@ import './menu.css';
 
 const Menu = () => {
     return (
-        <Tabs>
+        <Tabs id="menu">
             <TabList className="menu--tabs-list">
                 <Tab className="menu--tabs-list-item">Appetizers</Tab>
                 <Tab className="menu--tabs-list-item">Salads</Tab>
