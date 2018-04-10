@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import menuData from './menu-data';
-import Appetizers from './appetizers';
+import StandardMenu from './standard_menu';
 import Salads from './salads';
 import Pizzas from './pizzas';
 import './menu.css';
@@ -21,7 +21,7 @@ const Menu = () => {
             </TabList>
 
             <TabPanel>
-                <Appetizers menu={menuData.appetizers} />
+                <StandardMenu name="Appetizers" menu={menuData.appetizers} />
             </TabPanel>
             <TabPanel>
                 <Salads menu={menuData.salads} />
@@ -30,19 +30,19 @@ const Menu = () => {
                 <Pizzas menu={menuData.pizzas} />
             </TabPanel>
             <TabPanel>
-                <div>Sandwiches</div>
+                <StandardMenu name="Sandwiches" menu={menuData.sandwiches} />
             </TabPanel>
             <TabPanel>
-                <div>Paninis</div>
+                <StandardMenu name="Paninis" menu={menuData.paninis} />
             </TabPanel>
             <TabPanel>
-                <div>Calzones</div>
+                <StandardMenu name="Calzones" menu={menuData.calzones} />
             </TabPanel>
             <TabPanel>
-                <div>Kids</div>
+                <StandardMenu name="Kids" menu={menuData.kids} />
             </TabPanel>
             <TabPanel>
-                <div>Desserts</div>
+                <StandardMenu name="Desserts" menu={menuData.desserts} />
             </TabPanel>
         </Tabs>
     )

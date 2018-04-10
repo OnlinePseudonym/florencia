@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Appetizers = (props) => {
+const StandardMenu = (props) => {
     const output = props.menu.map(item => {
         return (
             <div className="menu--item">
@@ -19,10 +19,10 @@ const Appetizers = (props) => {
     console.log(output);
     return (
         <div className="menu">
-            <h2 className="menu-title">Appetizers</h2>
+            <h2 className="menu-title">{props.name}</h2>
             {output}
         </div>
     )
 }
 
-export default Appetizers;
+export default StandardMenu;

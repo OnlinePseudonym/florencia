@@ -13,8 +13,8 @@ class App extends Component {
         <Nav />
         <Landing />
         <Hours />
-        <Menu />
         <GoogleMap />
+        <Menu />
         <About />
       </div>
     );

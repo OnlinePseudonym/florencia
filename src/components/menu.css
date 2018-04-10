@@ -18,9 +18,23 @@
     transform: scale(1.1);
 }
 
+.menu-title {
+    padding: 1rem;
+}
+
+.menu-header {
+    justify-self: end;
+    padding: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
 .menu--item {
     display: grid;
-    grid-gap: .5rem;
+    grid-template-columns: 1fr 2fr;
     font-weight: 400;
     padding: 1rem;
 }
@@ -32,14 +46,12 @@
 
 .menu--item__prices {
     grid-row: 1;
-    justify-self: end;
     display: grid;
-    grid-auto-flow: column;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .menu--item__price {
-    justify-self: end;
+    justify-self: center;
     font-weight: 600;
 }
 

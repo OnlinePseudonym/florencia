@@ -892,7 +892,7 @@ const menuData = {
         },{
             name: 'italian submarine',
             price: '10.95',
-            toppings: ['ham','salami','perpperoni','mozzarella'],
+            toppings: ['ham','salami','pepperoni','mozzarella'],
             options: ['pepperoncini','tomato','onion','lettuce'],
         },{
             name: 'hot ham & cheese',
