@@ -3,6 +3,21 @@
     justify-content: center;
 }
 
+.menu--tabs-list {
+    list-style-type: none;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.menu--tabs-list-item {
+    padding: 1rem;
+}
+
+.react-tabs__tab--selected {
+    transform: scale(1.1);
+}
+
 .menu--item {
     display: grid;
     grid-gap: .5rem;

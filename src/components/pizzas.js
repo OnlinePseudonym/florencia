@@ -5,11 +5,11 @@ import PizzaSubMenu from './pizza_sub_menu';
 const Pizzas = (props) => {
     return (
         <Tabs>
-            <TabList>
-                <Tab>Traditional</Tab>
-                <Tab>Olive Oil</Tab>
-                <Tab>Pesto</Tab>
-                <Tab>Ranch</Tab>
+            <TabList className="menu--tabs-list">
+                <Tab className="menu--tabs-list-item">Traditional</Tab>
+                <Tab className="menu--tabs-list-item">Olive Oil</Tab>
+                <Tab className="menu--tabs-list-item">Pesto</Tab>
+                <Tab className="menu--tabs-list-item">Ranch</Tab>
             </TabList>
 
             <TabPanel>
@@ -17,15 +17,12 @@ const Pizzas = (props) => {
             </TabPanel>
             <TabPanel>
                 <PizzaSubMenu name="Olive Oil" menu={props.menu.oliveOil} />
-            <div>olive oil</div>
             </TabPanel>
             <TabPanel>
                 <PizzaSubMenu name="Pesto" menu={props.menu.pesto} />
-            <div>pesto</div>
             </TabPanel>
             <TabPanel>
                 <PizzaSubMenu name="Ranch" menu={props.menu.ranch} />
-            <div>ranch</div>
             </TabPanel>
         </Tabs>
     )

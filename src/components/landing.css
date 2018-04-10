@@ -11,7 +11,6 @@
     color: #d04a3a;
     text-shadow: 1px 1px 5px #111111b0;
     font-size: 4rem;
-/*     background: #111111cf; */
     width: 100%;
     display: grid;
     justify-items: center;
@@ -36,4 +35,10 @@
 
 .landing--title-secondary:after {
     --direction: right;
+}
+
+@media only screen and (min-width: 400px) {
+    .landing--title-primary {
+        font-size: 5rem;
+    }
 }

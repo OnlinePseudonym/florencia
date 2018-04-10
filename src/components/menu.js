@@ -9,14 +9,15 @@ import './menu.css';
 const Menu = () => {
     return (
         <Tabs>
-            <TabList>
-                <Tab>Appetizers</Tab>
-                <Tab>Salads</Tab>
-                <Tab>Pizzas</Tab>
-                <Tab>Sandwiches</Tab>
-                <Tab>Calzonis</Tab>
-                <Tab>Kids</Tab>
-                <Tab>Desserts</Tab>
+            <TabList className="menu--tabs-list">
+                <Tab className="menu--tabs-list-item">Appetizers</Tab>
+                <Tab className="menu--tabs-list-item">Salads</Tab>
+                <Tab className="menu--tabs-list-item">Pizzas</Tab>
+                <Tab className="menu--tabs-list-item">Sandwiches</Tab>
+                <Tab className="menu--tabs-list-item">Paninis</Tab>
+                <Tab className="menu--tabs-list-item">Calzones</Tab>
+                <Tab className="menu--tabs-list-item">Kids</Tab>
+                <Tab className="menu--tabs-list-item">Desserts</Tab>
             </TabList>
 
             <TabPanel>
@@ -32,7 +33,10 @@ const Menu = () => {
                 <div>Sandwiches</div>
             </TabPanel>
             <TabPanel>
-                <div>Calzonis</div>
+                <div>Paninis</div>
+            </TabPanel>
+            <TabPanel>
+                <div>Calzones</div>
             </TabPanel>
             <TabPanel>
                 <div>Kids</div>

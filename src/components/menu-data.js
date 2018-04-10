@@ -743,7 +743,7 @@ const menuData = {
                         price: '23.95',
                     },
                 ],
-                toppings: ['chicken','fresh mozzarella','pepperoncini','green olive','feta'],
+                toppings: ['pesto tomato sauce','chicken','fresh mozzarella','pepperoncini','green olive','feta'],
             },{
                 name: 'sophia',
                 price: [
@@ -876,10 +876,112 @@ const menuData = {
             },
         ]
     },
-    sandwiches: [],
-    calzonis: [],
-    kids: [],
-    desserts: [],
+    sandwiches: [
+        {
+            name: 'eggplant parmigiana',
+            price: '8.95',
+            toppings: ['breaded eggplant','tomato sauce','mozzarella'],
+        },{
+            name: 'meatball parmigiana',
+            price: '8.95',
+            toppings: ['meatball','tomato sauce','mozzarella'],
+        },{
+            name: 'chicken parmigiana',
+            price: '9.95',
+            toppings: ['breaded chicken','tomato sauce','mozzarella'],
+        },{
+            name: 'italian submarine',
+            price: '10.95',
+            toppings: ['ham','salami','perpperoni','mozzarella'],
+            options: ['pepperoncini','tomato','onion','lettuce'],
+        },{
+            name: 'hot ham & cheese',
+            price: '9.95',
+            toppings: ['ham','mozzarella'],
+            options: ['pepperoncini','tomato','onion','lettuce'],            
+        },{
+            name: 'BLT',
+            price: '8.95',
+            toppings: ['bacon','lettuce','tomato','jalapeno','fresh mozzarella','mozzarella'],
+        },
+    ],
+    paninis: [
+        {
+            name: 'chicken panini',
+            price: '11.95',
+            toppings: ['breaded chicken breast cutlet','field greens','tomato','onion','balsamic vinaigrette'],
+        },{
+            name: 'benson',
+            price: '11.95',
+            toppings: ['sliced breaded chicken','lettuce','onion','tomato',
+                       'tossed in your choice of ranch or creamy italian dressing'],
+        },{
+            name: 'italiano',
+            price: '12.95',
+            toppings: ['ham','salami','perpperoni','mozzarella'],
+            options: ['pepperoncini','tomato','onion','lettuce'],
+        },{
+            name: 'pesto panini',
+            price: '10.95',
+            toppings: ['pesto','fresh mozzarella','tomato','basil','field greens'],
+        },
+    ],
+    calzones: [
+        {
+            name: 'spinach',
+            price: '11.95',
+            toppings: ['spinach','ricotta','garlic','mozzarella'],
+        },{
+            name: 'pesto',
+            price: '14.95',
+            toppings: ['pesto','chicken','calamata olive','tomato','garlic','mozzarella'],
+        },{
+            name: 'sausage & mushroom',
+            price: '13.95',
+            toppings: ['suasage','mushroom','ricotta','garlic','mozzarella'],
+        },
+    ],
+    kids: [
+        {
+            name: 'meatballs',
+            price: '4.50',
+            toppings: ['meatballs','mozzarella','tomato sauce'],
+        },{
+            name: 'tortizza',
+            price: '3.50',
+            toppings: ['flour tortilla','pepperoni','mozzarella'],
+        },{
+            name: 'chicken tenders',
+            price: '5.95',
+            toppings: ['breaded chicken breast cutlets'],
+            options: ['ranch','ketchup','BBQ sauce'],
+        },{
+            name: 'hot \'n cheesy sammy',
+            price: '3.50',
+            toppings: ['italian roll','mozzarella'],
+        },
+    ],
+    desserts: [
+        {
+            name: 'ice cream delight',
+            price: '3.50',
+            toppings: ['vanilla ice cream','chocolate syrup','rainbow sprinkles'],
+        },{
+            name: 'cookie moster',
+            price: '8.95',
+            toppings: ['chocolate chip cookie baked inside sweetened pizza dough','vanilla ice cream','brown suger',
+                       'cinnamon','maple syrup'],
+        },{
+            name: 'apple pizazz',
+            price: '8.95',
+            toppings: ['apple pie filling','walnuts','cinnamon','vanilla ice cream'],
+        },{
+            name: 'cookie \'n cream',
+            price: '5.95',
+            toppings: ['half pound chocolate chip or macadamia nut cookie','vanilla ice cream'],
+            options: ['ask about our cookie of the month']
+        },
+    ],
 
 }
 
