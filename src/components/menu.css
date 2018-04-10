@@ -15,15 +15,22 @@
     text-transform: Capitalize;
 }
 
-.menu--item__price {
+.menu--item__prices {
     grid-row: 1;
+    justify-self: end;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1rem;
+}
+
+.menu--item__price {
     justify-self: end;
     font-weight: 600;
 }
 
 .menu--item__desc {
     font-size: .75rem;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
 }
 
 .menu--item__addition {

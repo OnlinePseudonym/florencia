@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import menuData from './menu-data';
 import Appetizers from './appetizers';
 import Salads from './salads';
+import Pizzas from './pizzas';
 import './menu.css';
 
 const Menu = () => {
@@ -25,7 +26,7 @@ const Menu = () => {
                 <Salads menu={menuData.salads} />
             </TabPanel>
             <TabPanel>
-                <div>Pizzas</div>
+                <Pizzas menu={menuData.pizzas} />
             </TabPanel>
             <TabPanel>
                 <div>Sandwiches</div>

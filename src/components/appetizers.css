@@ -11,6 +11,7 @@
 
 .menu--item__price {
     grid-row: 1;
+    grid-column: -1;
     justify-self: end;
     font-weight: 600;
 }

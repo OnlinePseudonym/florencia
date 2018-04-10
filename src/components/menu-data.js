@@ -235,214 +235,645 @@ const menuData = {
                 ],
                 toppings: ['pepperoni','chicken','canadian bacon','sausage','fresh mozzarella'],
             },{
-                name: 'margherita',
+                name: 'Hawaiian',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
+                        price: '12.95',
                     },{
                         size: 'M',
-                        price: '13.95',
+                        price: '15.75',
                     },{
                         size: 'L',
-                        price: '15.95',
+                        price: '17.75',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '19.75',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['ham','pepperoni','pineapple'],
             },{
-                name: 'margherita',
+                name: 'flaumbay',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
-                    },{
-                        size: 'M',
                         price: '13.95',
                     },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
                         size: 'L',
-                        price: '15.95',
+                        price: '18.95',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '20.95',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['pepperoni','green bell peppers','pineapple'],
             },{
-                name: 'margherita',
+                name: 'spinaci',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
-                    },{
-                        size: 'M',
                         price: '13.95',
                     },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
                         size: 'L',
-                        price: '15.95',
+                        price: '18.95',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '20.95',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['spinach','ricotta','mushroom','garlic'],
             },{
-                name: 'margherita',
+                name: 'fiesta',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
+                        price: '14.75',
                     },{
                         size: 'M',
-                        price: '13.95',
+                        price: '18.50',
                     },{
                         size: 'L',
-                        price: '15.95',
+                        price: '20.50',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '22.50',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['pepperoni','chorizo','jalapeno','tomato','onion'],
             },{
-                name: 'margherita',
+                name: 'clark\'s classic',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
-                    },{
-                        size: 'M',
                         price: '13.95',
                     },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
                         size: 'L',
-                        price: '15.95',
+                        price: '18.95',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '20.95',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['buffalo chicken','pepperoni'],
             },{
-                name: 'margherita',
+                name: 'vegetarian',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
+                        price: '14.75',
                     },{
                         size: 'M',
-                        price: '13.95',
+                        price: '18.50',
                     },{
                         size: 'L',
-                        price: '15.95',
+                        price: '20.50',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '22.50',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['mushroom','tomato','red bell pepper','green bell pepper','zucchini','olive','garlic'],
             },{
-                name: 'margherita',
+                name: 'trout',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
+                        price: '12.95',
                     },{
                         size: 'M',
-                        price: '13.95',
+                        price: '15.75',
                     },{
                         size: 'L',
-                        price: '15.95',
+                        price: '17.75',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '19.75',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['pepperoni','pepperoncini','mushroom'],
             },{
-                name: 'margherita',
+                name: 'valentinos',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
+                        price: '12.95',
                     },{
                         size: 'M',
-                        price: '13.95',
+                        price: '15.75',
                     },{
                         size: 'L',
-                        price: '15.95',
+                        price: '17.75',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '19.75',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['salami','pepperoncini','tomato'],
             },{
-                name: 'margherita',
+                name: 'pomodoro',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
-                    },{
-                        size: 'M',
                         price: '13.95',
                     },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
                         size: 'L',
-                        price: '15.95',
+                        price: '18.95',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '20.95',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['breaded eggplant','mushroom','tomato','garlic'],
             },{
-                name: 'margherita',
+                name: 'zagar',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
+                        price: '12.95',
                     },{
                         size: 'M',
-                        price: '13.95',
+                        price: '15.75',
                     },{
                         size: 'L',
-                        price: '15.95',
+                        price: '17.75',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '19.75',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['sausage','roasted red bell pepper','mushroom'],
             },{
-                name: 'margherita',
+                name: 'BBQ chicken',
                 price: [
                     {
                         size: 'S',
-                        price: '11.95',
-                    },{
-                        size: 'M',
                         price: '13.95',
                     },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
                         size: 'L',
-                        price: '15.95',
+                        price: '18.95',
                     },{
                         size: 'XL',
-                        price: '17.95',
+                        price: '20.95',
                     },
                 ],
-                toppings: ['fresh mozzarella','garlic','basil'],
+                toppings: ['BBQ sauce','BBQ chicken','capers','onion','romano','garlic'],
             },
         ],
         oliveOil: [
-
+            {
+                name: 'stefanos',
+                price: [
+                    {
+                        size: 'S',
+                        price: '15.95',
+                    },{
+                        size: 'M',
+                        price: '17.95',
+                    },{
+                        size: 'L',
+                        price: '19.95',
+                    },{
+                        size: 'XL',
+                        price: '21.95',
+                    },
+                ],
+                toppings: ['spinach','feta','calamata olive','onion','tomato'],
+            },{
+                name: 'Melanzane',
+                price: [
+                    {
+                        size: 'S',
+                        price: '15.95',
+                    },{
+                        size: 'M',
+                        price: '17.95',
+                    },{
+                        size: 'L',
+                        price: '19.95',
+                    },{
+                        size: 'XL',
+                        price: '21.95',
+                    },
+                ],
+                toppings: ['breaded eggplant','chicken','roasted red bell pepper','feta','tomato','garlic'],
+            },{
+                name: 'DPR\'s inferno',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '15.95',
+                    },{
+                        size: 'L',
+                        price: '17.95',
+                    },{
+                        size: 'XL',
+                        price: '19.95',
+                    },
+                ],
+                toppings: ['sausage','jalapeno','extra garlic'],
+            },{
+                name: 'mykonos',
+                price: [
+                    {
+                        size: 'S',
+                        price: '15.95',
+                    },{
+                        size: 'M',
+                        price: '17.95',
+                    },{
+                        size: 'L',
+                        price: '19.95',
+                    },{
+                        size: 'XL',
+                        price: '21.95',
+                    },
+                ],
+                toppings: ['artichoke heart','bacon','feta','calamata olive','garlic'],
+            },{
+                name: 'new yorker',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '15.95',
+                    },{
+                        size: 'L',
+                        price: '17.95',
+                    },{
+                        size: 'XL',
+                        price: '19.95',
+                    },
+                ],
+                toppings: ['ricotta','broccoli','garlic'],
+            },{
+                name: 'tuscany',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '15.95',
+                    },{
+                        size: 'L',
+                        price: '17.95',
+                    },{
+                        size: 'XL',
+                        price: '19.95',
+                    },
+                ],
+                toppings: ['salami','onion','garlic'],
+            },{
+                name: 'puttanesca',
+                price: [
+                    {
+                        size: 'S',
+                        price: '15.95',
+                    },{
+                        size: 'M',
+                        price: '17.95',
+                    },{
+                        size: 'L',
+                        price: '19.95',
+                    },{
+                        size: 'XL',
+                        price: '21.95',
+                    },
+                ],
+                toppings: ['chicken','calamata olive','capers','onion','tomato','garlic'],
+            },{
+                name: 'bravo',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '15.95',
+                    },{
+                        size: 'L',
+                        price: '17.95',
+                    },{
+                        size: 'XL',
+                        price: '19.95',
+                    },
+                ],
+                toppings: ['sausage','goat cheese','fennel seed','garlic'],
+            },{
+                name: 'fiorentina',
+                price: [
+                    {
+                        size: 'S',
+                        price: '15.50',
+                    },{
+                        size: 'M',
+                        price: '17.50',
+                    },{
+                        size: 'L',
+                        price: '19.50',
+                    },{
+                        size: 'XL',
+                        price: '21.50',
+                    },
+                ],
+                toppings: ['spinach','sausage','feta','roasted red bell pepper','garlic'],
+            },{
+                name: 'winchester',
+                price: [
+                    {
+                        size: 'S',
+                        price: '14.95',
+                    },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
+                        size: 'L',
+                        price: '18.95',
+                    },{
+                        size: 'XL',
+                        price: '20.95',
+                    },
+                ],
+                toppings: ['chicken','feta','mushroom','garlic'],
+            },{
+                name: 'stratford',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '15.95',
+                    },{
+                        size: 'L',
+                        price: '17.95',
+                    },{
+                        size: 'XL',
+                        price: '19.95',
+                    },
+                ],
+                toppings: ['sausage','cherry peppers','fresh arugula','garlic'],
+            },{
+                name: 'spicy goat',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '15.95',
+                    },{
+                        size: 'L',
+                        price: '17.95',
+                    },{
+                        size: 'XL',
+                        price: '19.95',
+                    },
+                ],
+                toppings: ['goat cheese','jalapeno','mushroom','onion','zucchini','garlic','crushed red pepper'],
+            },{
+                name: 'clevenger',
+                price: [
+                    {
+                        size: 'S',
+                        price: '15.95',
+                    },{
+                        size: 'M',
+                        price: '17.95',
+                    },{
+                        size: 'L',
+                        price: '19.95',
+                    },{
+                        size: 'XL',
+                        price: '21.95',
+                    },
+                ],
+                toppings: ['traditional crust','spinach','sausage','feta','onion','garlic'],
+            },{
+                name: 'hawaii five-O',
+                price: [
+                    {
+                        size: 'S',
+                        price: '15.95',
+                    },{
+                        size: 'M',
+                        price: '17.95',
+                    },{
+                        size: 'L',
+                        price: '19.95',
+                    },{
+                        size: 'XL',
+                        price: '21.95',
+                    },
+                ],
+                toppings: ['traditional crust','pineapple habanero chicken','jalapeno','bacon','pineapple','onion'],
+            },{
+                name: 'snow white',
+                price: [
+                    {
+                        size: 'S',
+                        price: '10.95',
+                    },{
+                        size: 'M',
+                        price: '12.95',
+                    },{
+                        size: 'L',
+                        price: '14.95',
+                    },{
+                        size: 'XL',
+                        price: '16.95',
+                    },
+                ],
+                toppings: ['tomato','basil','garlic'],
+            },
         ],
         pesto:  [
-
+            {
+                name: 'original pesto',
+                price: [
+                    {
+                        size: 'S',
+                        price: '10.95',
+                    },{
+                        size: 'M',
+                        price: '12.95',
+                    },{
+                        size: 'L',
+                        price: '14.95',
+                    },{
+                        size: 'XL',
+                        price: '16.95',
+                    },
+                ],
+                toppings: ['tomato'],
+            },{
+                name: 'patagonian',
+                price: [
+                    {
+                        size: 'S',
+                        price: '15.95',
+                    },{
+                        size: 'M',
+                        price: '18.95',
+                    },{
+                        size: 'L',
+                        price: '21.95',
+                    },{
+                        size: 'XL',
+                        price: '23.95',
+                    },
+                ],
+                toppings: ['chicken','fresh mozzarella','pepperoncini','green olive','feta'],
+            },{
+                name: 'sophia',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
+                        size: 'L',
+                        price: '18.95',
+                    },{
+                        size: 'XL',
+                        price: '20.95',
+                    },
+                ],
+                toppings: ['artichoke','roasted red bell pepper','tomato'],
+            },{
+                name: 'bo-be',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
+                        size: 'L',
+                        price: '18.95',
+                    },{
+                        size: 'XL',
+                        price: '20.95',
+                    },
+                ],
+                toppings: ['spinach','mushroom','tomato','garlic'],
+            },{
+                name: 'raspotle',
+                price: [
+                    {
+                        size: 'S',
+                        price: '14.95',
+                    },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
+                        size: 'L',
+                        price: '18.95',
+                    },{
+                        size: 'XL',
+                        price: '20.95',
+                    },
+                ],
+                toppings: ['chicken','roasted red bell pepper','raspberry chipotle sauce','choice of feta or goat cheese'],
+            },{
+                name: 'green-eyed chicken',
+                price: [
+                    {
+                        size: 'S',
+                        price: '14.95',
+                    },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
+                        size: 'L',
+                        price: '18.95',
+                    },{
+                        size: 'XL',
+                        price: '20.95',
+                    },
+                ],
+                toppings: ['chicken','jalapeno','garlic','romano','crushed red pepper'],
+            },
         ],
-        Ranch: [
-             
-            0 
+        ranch: [
+            {
+                name: 'cadillac',
+                price: [
+                    {
+                        size: 'S',
+                        price: '13.95',
+                    },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
+                        size: 'L',
+                        price: '18.95',
+                    },{
+                        size: 'XL',
+                        price: '20.95',
+                    },
+                ],
+                toppings: ['breaded buffalo chicken','pepperoni'],
+            },{
+                name: 'BBQ bacon ranch',
+                price: [
+                    {
+                        size: 'S',
+                        price: '14.95',
+                    },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
+                        size: 'L',
+                        price: '18.95',
+                    },{
+                        size: 'XL',
+                        price: '20.95',
+                    },
+                ],
+                toppings: ['breaded BBQ chicken','jalapeno','bacon','feta'],
+            },{
+                name: 'ranchero',
+                price: [
+                    {
+                        size: 'S',
+                        price: '14.95',
+                    },{
+                        size: 'M',
+                        price: '16.95',
+                    },{
+                        size: 'L',
+                        price: '18.95',
+                    },{
+                        size: 'XL',
+                        price: '20.95',
+                    },
+                ],
+                toppings: ['breaded chicken','onion','tomato','basil'],
+            },
         ]
     },
     sandwiches: [],
