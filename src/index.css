@@ -6,4 +6,9 @@ html {
 *,*:before,*:after {
     box-sizing: inherit;
     margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background: #223147;
 }

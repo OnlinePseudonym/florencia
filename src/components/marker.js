@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Marker = () => {
+const Marker = (props) => {
     return (
+		<div lat={props.lat} lng={props.lng}>
         <svg className="marker" id="Layer_1" viewBox="0 0 512 512">
 <g>
 	<g>
@@ -41,6 +42,7 @@ const Marker = () => {
 <g>
 </g>
 </svg>
+</div>
     )
 }
 

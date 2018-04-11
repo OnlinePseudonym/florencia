@@ -967,7 +967,7 @@ const menuData = {
             price: '3.50',
             toppings: ['vanilla ice cream','chocolate syrup','rainbow sprinkles'],
         },{
-            name: 'cookie moster',
+            name: 'cookie monster',
             price: '8.95',
             toppings: ['chocolate chip cookie baked inside sweetened pizza dough','vanilla ice cream','brown suger',
                        'cinnamon','maple syrup'],

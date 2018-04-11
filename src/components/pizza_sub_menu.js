@@ -4,7 +4,7 @@ const PizzaSubMenu = (props) => {
     const output = props.menu.map(item => {
         return (
             <div className="menu--item">
-                <h4 className="menu--item__name">{item.name}</h4>
+                <h3 className="menu--item__name">{item.name}</h3>
                 <span className="menu--item__prices">                
                     {item.price.map(size => {
                         return (
@@ -26,7 +26,7 @@ const PizzaSubMenu = (props) => {
     return (
         <div className="menu">
             <h3 className="menu-title">{props.name}</h3>
-            <div className="menu-header"><span></span><span>10"</span><span>12"</span><span>14"</span><span>16"</span></div>
+            <div className="menu-header"><span className="menu-header-sizes"><span className="menu-header-size">10"</span><span className="menu-header-size">12"</span><span className="menu-header-size">14"</span><span className="menu-header-size">16"</span></span></div>
             {output}
         </div>
     )

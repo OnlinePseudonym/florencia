@@ -4,25 +4,25 @@ import PizzaSubMenu from './pizza_sub_menu';
 
 const Pizzas = (props) => {
     return (
-        <Tabs>
-            <TabList className="menu--tabs-list">
-                <Tab className="menu--tabs-list-item">Traditional</Tab>
-                <Tab className="menu--tabs-list-item">Olive Oil</Tab>
-                <Tab className="menu--tabs-list-item">Pesto</Tab>
-                <Tab className="menu--tabs-list-item">Ranch</Tab>
+        <Tabs className="pizza--tabs">
+            <TabList className="menu--tabs-list pizza--tab-list">
+                <Tab className="menu--tabs-list-item pizza--tab-item">Traditional</Tab>
+                <Tab className="menu--tabs-list-item pizza--tab-item">Olive Oil</Tab>
+                <Tab className="menu--tabs-list-item pizza--tab-item">Pesto</Tab>
+                <Tab className="menu--tabs-list-item pizza--tab-item">Ranch</Tab>
             </TabList>
 
             <TabPanel>
-                <PizzaSubMenu name="Traditional" menu={props.menu.traditional} />
+                <PizzaSubMenu name="Traditional Pizzas" menu={props.menu.traditional} />
             </TabPanel>
             <TabPanel>
-                <PizzaSubMenu name="Olive Oil" menu={props.menu.oliveOil} />
+                <PizzaSubMenu name="Olive Oil Pizzas" menu={props.menu.oliveOil} />
             </TabPanel>
             <TabPanel>
-                <PizzaSubMenu name="Pesto" menu={props.menu.pesto} />
+                <PizzaSubMenu name="Pesto Pizzas" menu={props.menu.pesto} />
             </TabPanel>
             <TabPanel>
-                <PizzaSubMenu name="Ranch" menu={props.menu.ranch} />
+                <PizzaSubMenu name="Ranch Pizzas" menu={props.menu.ranch} />
             </TabPanel>
         </Tabs>
     )

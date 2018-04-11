@@ -9,7 +9,7 @@ const Hours = () => {
             <div className="hours">
                 <div className="address">
                     <p className="address-txt">3646 E Ray Rd,<br />Phoenix, AZ, 85044</p>
-                    <p classNmae="address-txt">480-704-7404</p>
+                    <p className="address-txt">480-704-7404</p>
                 </div>
                 <div className="operating-hours">
                     <div>Mon - Wed: <span className="hours-open">4pm - 9pm</span></div>

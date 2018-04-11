@@ -1,45 +1,39 @@
 .menu {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto 600px auto;
-}
-
-.menu > * {
-    grid-column: 2;
-}
-
-.menu--tabs-list {
-    list-style-type: none;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-}
-.menu--tabs-list-item {
-    padding: 1rem;
-}
-
-.react-tabs__tab--selected {
-    transform: scale(1.1);
+    color: #fff;
+    width: 100vw;
+    max-width: 600px;
+    background: #334969;
 }
 
 .menu-title {
     padding: 1rem;
 }
 
+/** header style **/
+
 .menu-header {
-    justify-self: end;
     padding: 1rem;
     display: grid;
     grid-auto-flow: column;
-    justify-items: end;
     width: 100%;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 250px;
 }
+
+.menu-header-sizes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: 2;
+}
+
+.menu-header-size {
+    justify-self: end;
+}
+
+/** Item style **/
 
 .menu--item {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 250px;
     font-weight: 400;
     padding: 1rem;
 }
@@ -62,11 +56,12 @@
 }
 
 .menu--item__price {
-    font-weight: 600;
+    font-weight: 400;
     justify-self: end;
 }
 
 .menu--item__desc {
+    margin-top: .5rem;
     font-size: .75rem;
     grid-column: 1 / span 2;
 }
@@ -77,4 +72,43 @@
 }
 .menu--item__addition-price {
     font-weight: 600;
+}
+
+/** Tab style **/
+
+.react-tabs {
+    background: #223147;
+}
+
+.menu--tabs-list {
+    background: #223147;
+    width: 100vw;
+    padding: 0;
+}
+
+.menu--tabs-list {
+    list-style-type: none;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.menu--tabs-list-item {
+    padding: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s;
+}
+.menu--tabs-list-item:hover {
+    color: #e1e1e1;
+    text-decoration: underline;
+}
+
+.react-tabs__tab--selected {
+    color: #d04a3a;
+}
+
+.react-tabs__tab-panel--selected {
+    display: grid;
+    justify-content: center;
 }

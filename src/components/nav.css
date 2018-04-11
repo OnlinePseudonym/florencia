@@ -4,7 +4,7 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 7fr 1fr 1fr 1fr;
-    background: #fff;
+    background: #223147f0;
     padding: 1rem;
     align-items: center;
     justify-items: center;
@@ -20,6 +20,6 @@
   }
   
   .nav__item {
-    color: #111;
+    color: #fff;
     text-decoration: none;
   }
