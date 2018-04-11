@@ -82,7 +82,7 @@
 
 .menu--tabs-list {
     background: #223147;
-    width: 100vw;
+    width: calc(100vw - (100vw - 100%));
     padding: 0;
 }
 
