@@ -26,7 +26,7 @@ const PizzaSubMenu = (props) => {
     return (
         <div className="menu">
             <h3 className="menu-title">{props.name}</h3>
-            <div className="menu-header"><span className="menu-header-sizes"><span className="menu-header-size">10"</span><span className="menu-header-size">12"</span><span className="menu-header-size">14"</span><span className="menu-header-size">16"</span></span></div>
+            <div className="menu-header"><span className="menu-header-sizes"><span className="menu-header-size">Small - 10"</span><span className="menu-header-size">Medium - 12"</span><span className="menu-header-size">Large - 14"</span><span className="menu-header-size">Extra Large - 16"</span></span></div>
             {output}
         </div>
     )

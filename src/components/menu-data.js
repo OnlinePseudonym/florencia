@@ -341,7 +341,7 @@ const menuData = {
                         price: '22.50',
                     },
                 ],
-                toppings: ['mushroom','tomato','red bell pepper','green bell pepper','zucchini','olive','garlic'],
+                toppings: ['mushroom','tomato','onion','red bell pepper','green bell pepper','zucchini','olive','garlic'],
             },{
                 name: 'trout',
                 price: [
