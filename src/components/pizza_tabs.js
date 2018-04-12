@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import PizzaSubMenu from './pizza_sub_menu';
+import Menu from './menu';
 
 const Pizzas = (props) => {
     return (
@@ -13,16 +13,16 @@ const Pizzas = (props) => {
             </TabList>
 
             <TabPanel>
-                <PizzaSubMenu name="Traditional Pizzas" menu={props.menu.traditional} />
+                <Menu name="Traditional Pizzas" menu={props.menu.traditional} />
             </TabPanel>
             <TabPanel>
-                <PizzaSubMenu name="Olive Oil Pizzas" menu={props.menu.oliveOil} />
+                <Menu name="Olive Oil Pizzas" menu={props.menu.oliveOil} />
             </TabPanel>
             <TabPanel>
-                <PizzaSubMenu name="Pesto Pizzas" menu={props.menu.pesto} />
+                <Menu name="Pesto Pizzas" menu={props.menu.pesto} />
             </TabPanel>
             <TabPanel>
-                <PizzaSubMenu name="Ranch Pizzas" menu={props.menu.ranch} />
+                <Menu name="Ranch Pizzas" menu={props.menu.ranch} />
             </TabPanel>
         </Tabs>
     )

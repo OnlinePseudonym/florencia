@@ -2,187 +2,215 @@ const menuData = {
     appetizers: [
         {
             name: 'garlic bread',
-            price: '2.50',
-            toppings: [],
-            options: [
+            prices: [
                 {
-                    item: 'mozzarella',
-                    price: '1.00',
+                    size: null,
+                    price: '2.50',
+                }/* ,{
+                    size: 'with mozzarella',
+                    price: '3.50',
                 },{
-                    item: 'tomato',
-                    price: '.45',
-                }
+                    size: 'with mozzarella and tomatoes',
+                    price: '3.95',
+                } */
             ],
+            toppings: ['\nadd mozzarella 1.00','\nadd mozzarella and tomato 1.45'],
         },{
             name: 'pesto bread',
-            price: '4.95',
+            prices: [
+                {
+                    size: null,
+                    price: '4.95'
+                }
+            ],
             toppings: ['pesto','mozzarella','tomato'],
         },{
             name: 'Barry\'s pesto bread',
-            price: '6.95',
+            prices: [
+                {
+                    size: null,
+                    price: '6.95'
+                }
+            ],
             toppings: ['pesto','mozzarella','tomato','roasted red bell pepper','jalapeno','walnut'],
         },{
             name: 'EJ\'s pesto bread',
-            price: '7.95',
+            prices: [
+                {
+                    size: null,
+                    price: '7.95'
+                }
+            ],
             toppings: ['pesto','fresh mozzarella','chicken','sausage','pepperoncini','lettuce'],
         },{
             name: 'mozzarella sticks',
-            price: '5.95',
+            prices: [
+                {
+                    size: null,
+                    price: '5.95'
+                }
+            ],
             toppings: ['side of sauce'],
         },{
             name: 'panini pizzeta',
-            price: '5.95',
-            toppings: ['seasoned pizza dough','garlic','side of sauce'],
-            options: [
+            prices: [
                 {
-                    item: 'mozzarella',
-                    price: '1.00',
-                },
-        ],
+                    size: null,
+                    price: '6.95',
+                }/* ,{
+                    size: 'with cheese',
+                    price: '7.95',
+                } */
+            ],
+            toppings: ['seasoned pizza dough','garlic','side of sauce','\nadd mozzarella 1.00'],
         },{
             name: 'bruschetta',
-            price: '5.95',
+            prices: [
+                {
+                    size: null,
+                    price: '5.95'
+                }
+            ],
             toppings: ['garlic bread','mozzarella','diced tomato','roasted garlic','basil','balsamic vinaigrette'],
         },{
             name: 'zesty meatballs',
-            price: '4.50',
+            prices: [
+                {
+                    size: null,
+                    price: '4.50'
+                }
+            ],
             toppings: ['meatball','mozzarella','tomato sauce'],
         }
     ],
     salads: [
         {
             name: 'ceasar',
-            price: [
+            prices: [
                 {
-                    size: 'individual',
+                    size: 'Ind',
                     price: '3.95',
                 },{
-                    size: 'small',
+                    size: 'S',
                     price: '5.95',
                 },{
-                    size: 'large',
+                    size: 'L',
                     price: '7.95',
-                },
+                }
             ],
             toppings: ['lettuce','croutons','romano','tossed in ceasar dressing'],
         },{
             name: 'garden',
-            price: [
+            prices: [
                 {
-                    size: 'individual',
+                    size: 'Ind',
                     price: '3.95',
                 },{
-                    size: 'small',
+                    size: 'S',
                     price: '5.95',
                 },{
-                    size: 'large',
+                    size: 'L',
                     price: '7.95',
-                },
+                }
             ],
             toppings: ['lettuce','cucumber','tomato','carrot','onion','red bell pepper','your choice of dressing'],
         },{
             name: 'greek',
-            price: [
+            prices: [
                 {
-                    size: 'small',
+                    size: 'S',
                     price: '5.95',
                 },{
-                    size: 'large',
+                    size: 'L',
                     price: '7.95',
-                },
+                }
             ],
             toppings: ['lettuce','cucumber','tomato','red onion','red bell pepper','calamata olive','feta',
                        'pepperoncini','balsamic vinaigrette'],
         },{
             name: 'mista',
-            price: [
+            prices: [
                 {
-                    size: 'small',
+                    size: 'S',
                     price: '6.95',
                 },{
-                    size: 'large',
+                    size: 'L',
                     price: '8.95',
-                },
+                }
             ],
             toppings: ['field greens','tomato','walnuts','feta','balsamic vinaigrette'],
         },{
             name: 'antipasto',
-            price: [
+            prices: [
                 {
-                    size: 'small',
+                    size: 'S',
                     price: '7.95',
                 },{
-                    size: 'large',
+                    size: 'L',
                     price: '9.95',
-                },
+                }
             ],
             toppings: ['lettuce','salami','pepperoni','ham','fresh mozzarella','clamata olives','perpperoncini',
                        'red onion','feta','your choice of dressing'],
         },{
-            name: 'spinach',
-            price: [
+            name: 'Spinach',
+            prices: [
                 {
-                    size: 'small',
+                    size: 'S',
                     price: '6.95',
                 },{
-                    size: 'large',
+                    size: 'L',
                     price: '8.95',
-                },
+                }
             ],
             toppings: ['spinach','tomato','cucumber','bacon','fresh mozzarella','romano','balsamic vinaigrette'],
         },{
             name: 'caprese',
-            price: [
+            prices: [
                 {
-                    size: 'small',
+                    size: 'S',
                     price: '6.95',
                 },{
-                    size: 'large',
+                    size: 'L',
                     price: '8.95',
-                },
+                }
             ],
             toppings: ['tomato','fresh mozzarella','calamata olive','basil','romano','balsamic reduction',
                        'balsamic vinaigrette'],
         },{
             name: 'caprista',
-            price: [
+            prices: [
                 {
-                    size: 'small',
+                    size: 'S',
                     price: '7.95',
                 },{
-                    size: 'large',
+                    size: 'L',
                     price: '9.95',
-                },
+                }
             ],
             toppings: ['field greens','tomato','fresh mozzarella','calamata olive','walnut','feta','basil','romano',
                        'balsamic reduction','balsamic vinaigrette'],
         },{
             name: 'veggie saute',
-            price: '8.95',
-            toppings: ['sauteed spinach','onion','broccoli','mushroom','zucchini','tomato','red bell pepper','garlic'],
-            option: [
+            prices: [
                 {
-                    item: 'mozzarella',
-                    price: '1.00',
-                },{
-                    item: 'sausage',
-                    price: '1.50',
-                },{
-                    item: 'meatball',
-                    price: '1.50',
-                },
+                    size: null,
+                    price: '8.95',
+                }
             ],
-        },{
+            toppings: ['sauteed spinach','onion','broccoli','mushroom','zucchini','tomato','red bell pepper','garlic',
+                       '\nadd mozzarella 1.00','\nadd sausage or meatball 1.50'],
+        },/* {
             name: 'dressings',
             toppings: ['balsamic vinaigrette','raspberry vinaigrette','caesar','thousand island','oily italian',
                        'ranch','blue cheese','creamy italian'],
-        }
+        } */
     ],
     pizzas: {
         traditional: [
             {
                 name: 'margherita',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '11.95',
@@ -200,7 +228,7 @@ const menuData = {
                 toppings: ['fresh mozzarella','garlic','basil'],
             },{
                 name: 'combo',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '14.95',
@@ -218,7 +246,7 @@ const menuData = {
                 toppings: ['pepperoni','sausage','mushroom','onion','red bell pepper','green bell pepper','olive'],
             },{
                 name: 'gladiator',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.95',
@@ -236,7 +264,7 @@ const menuData = {
                 toppings: ['pepperoni','chicken','canadian bacon','sausage','fresh mozzarella'],
             },{
                 name: 'Hawaiian',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '12.95',
@@ -254,7 +282,7 @@ const menuData = {
                 toppings: ['ham','pepperoni','pineapple'],
             },{
                 name: 'flaumbay',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -272,7 +300,7 @@ const menuData = {
                 toppings: ['pepperoni','green bell peppers','pineapple'],
             },{
                 name: 'spinaci',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -290,7 +318,7 @@ const menuData = {
                 toppings: ['spinach','ricotta','mushroom','garlic'],
             },{
                 name: 'fiesta',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '14.75',
@@ -308,7 +336,7 @@ const menuData = {
                 toppings: ['pepperoni','chorizo','jalapeno','tomato','onion'],
             },{
                 name: 'clark\'s classic',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -326,7 +354,7 @@ const menuData = {
                 toppings: ['buffalo chicken','pepperoni'],
             },{
                 name: 'vegetarian',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '14.75',
@@ -344,7 +372,7 @@ const menuData = {
                 toppings: ['mushroom','tomato','onion','red bell pepper','green bell pepper','zucchini','olive','garlic'],
             },{
                 name: 'trout',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '12.95',
@@ -362,7 +390,7 @@ const menuData = {
                 toppings: ['pepperoni','pepperoncini','mushroom'],
             },{
                 name: 'valentinos',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '12.95',
@@ -380,7 +408,7 @@ const menuData = {
                 toppings: ['salami','pepperoncini','tomato'],
             },{
                 name: 'pomodoro',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -398,7 +426,7 @@ const menuData = {
                 toppings: ['breaded eggplant','mushroom','tomato','garlic'],
             },{
                 name: 'zagar',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '12.95',
@@ -416,7 +444,7 @@ const menuData = {
                 toppings: ['sausage','roasted red bell pepper','mushroom'],
             },{
                 name: 'BBQ chicken',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -437,7 +465,7 @@ const menuData = {
         oliveOil: [
             {
                 name: 'stefanos',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.95',
@@ -455,7 +483,7 @@ const menuData = {
                 toppings: ['spinach','feta','calamata olive','onion','tomato'],
             },{
                 name: 'Melanzane',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.95',
@@ -473,7 +501,7 @@ const menuData = {
                 toppings: ['breaded eggplant','chicken','roasted red bell pepper','feta','tomato','garlic'],
             },{
                 name: 'DPR\'s inferno',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -491,7 +519,7 @@ const menuData = {
                 toppings: ['sausage','jalapeno','extra garlic'],
             },{
                 name: 'mykonos',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.95',
@@ -509,7 +537,7 @@ const menuData = {
                 toppings: ['artichoke heart','bacon','feta','calamata olive','garlic'],
             },{
                 name: 'new yorker',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -527,7 +555,7 @@ const menuData = {
                 toppings: ['ricotta','broccoli','garlic'],
             },{
                 name: 'tuscany',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -545,7 +573,7 @@ const menuData = {
                 toppings: ['salami','onion','garlic'],
             },{
                 name: 'puttanesca',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.95',
@@ -563,7 +591,7 @@ const menuData = {
                 toppings: ['chicken','calamata olive','capers','onion','tomato','garlic'],
             },{
                 name: 'bravo',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -581,7 +609,7 @@ const menuData = {
                 toppings: ['sausage','goat cheese','fennel seed','garlic'],
             },{
                 name: 'fiorentina',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.50',
@@ -599,7 +627,7 @@ const menuData = {
                 toppings: ['spinach','sausage','feta','roasted red bell pepper','garlic'],
             },{
                 name: 'winchester',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '14.95',
@@ -617,7 +645,7 @@ const menuData = {
                 toppings: ['chicken','feta','mushroom','garlic'],
             },{
                 name: 'stratford',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -635,7 +663,7 @@ const menuData = {
                 toppings: ['sausage','cherry peppers','fresh arugula','garlic'],
             },{
                 name: 'spicy goat',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -653,7 +681,7 @@ const menuData = {
                 toppings: ['goat cheese','jalapeno','mushroom','onion','zucchini','garlic','crushed red pepper'],
             },{
                 name: 'clevenger',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.95',
@@ -671,7 +699,7 @@ const menuData = {
                 toppings: ['traditional crust','spinach','sausage','feta','onion','garlic'],
             },{
                 name: 'hawaii five-O',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.95',
@@ -689,7 +717,7 @@ const menuData = {
                 toppings: ['traditional crust','pineapple habanero chicken','jalapeno','bacon','pineapple','onion'],
             },{
                 name: 'snow white',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '10.95',
@@ -710,7 +738,7 @@ const menuData = {
         pesto:  [
             {
                 name: 'original pesto',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '10.95',
@@ -728,7 +756,7 @@ const menuData = {
                 toppings: ['tomato'],
             },{
                 name: 'patagonian',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '15.95',
@@ -746,7 +774,7 @@ const menuData = {
                 toppings: ['pesto tomato sauce','chicken','fresh mozzarella','pepperoncini','green olive','feta'],
             },{
                 name: 'sophia',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -764,7 +792,7 @@ const menuData = {
                 toppings: ['artichoke','roasted red bell pepper','tomato'],
             },{
                 name: 'bo-be',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -782,7 +810,7 @@ const menuData = {
                 toppings: ['spinach','mushroom','tomato','garlic'],
             },{
                 name: 'raspotle',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '14.95',
@@ -800,7 +828,7 @@ const menuData = {
                 toppings: ['chicken','roasted red bell pepper','raspberry chipotle sauce','choice of feta or goat cheese'],
             },{
                 name: 'green-eyed chicken',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '14.95',
@@ -821,7 +849,7 @@ const menuData = {
         ranch: [
             {
                 name: 'cadillac',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '13.95',
@@ -839,7 +867,7 @@ const menuData = {
                 toppings: ['breaded buffalo chicken','pepperoni'],
             },{
                 name: 'BBQ bacon ranch',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '14.95',
@@ -857,7 +885,7 @@ const menuData = {
                 toppings: ['breaded BBQ chicken','jalapeno','bacon','feta'],
             },{
                 name: 'ranchero',
-                price: [
+                prices: [
                     {
                         size: 'S',
                         price: '14.95',
@@ -879,105 +907,210 @@ const menuData = {
     sandwiches: [
         {
             name: 'eggplant parmigiana',
-            price: '8.95',
+            prices: [
+                {
+                    size: null,
+                    price: '8.95',
+                }
+            ],
             toppings: ['breaded eggplant','tomato sauce','mozzarella'],
         },{
             name: 'meatball parmigiana',
-            price: '8.95',
+            prices: [
+                {
+                    size: null,
+                    price: '8.95',
+                }
+            ],
             toppings: ['meatball','tomato sauce','mozzarella'],
         },{
             name: 'chicken parmigiana',
-            price: '9.95',
+            prices: [
+                {
+                    size: null,
+                    price: '9.95',
+                }
+            ],
             toppings: ['breaded chicken','tomato sauce','mozzarella'],
         },{
             name: 'italian submarine',
-            price: '10.95',
+            prices: [
+                {
+                    size: null,
+                    price: '10.95',
+                }
+            ],
             toppings: ['ham','salami','pepperoni','mozzarella'],
             options: ['pepperoncini','tomato','onion','lettuce'],
         },{
             name: 'hot ham & cheese',
-            price: '9.95',
+            prices: [
+                {
+                    size: null,
+                    price: '9.95',
+                }
+            ],
             toppings: ['ham','mozzarella'],
             options: ['pepperoncini','tomato','onion','lettuce'],            
         },{
             name: 'BLT',
-            price: '8.95',
+            prices: [
+                {
+                    size: null,
+                    price: '8.95',
+                }
+            ],
             toppings: ['bacon','lettuce','tomato','jalapeno','fresh mozzarella','mozzarella'],
         },
     ],
     paninis: [
         {
             name: 'chicken panini',
-            price: '11.95',
+            prices: [
+                {
+                    size: null,
+                    price: '11.95',
+                }
+            ],
             toppings: ['breaded chicken breast cutlet','field greens','tomato','onion','balsamic vinaigrette'],
         },{
             name: 'benson',
-            price: '11.95',
+            prices: [
+                {
+                    size: null,
+                    price: '11.95',
+                }
+            ],
             toppings: ['sliced breaded chicken','lettuce','onion','tomato',
                        'tossed in your choice of ranch or creamy italian dressing'],
         },{
             name: 'italiano',
-            price: '12.95',
+            prices: [
+                {
+                    size: null,
+                    price: '12.95',
+                }
+            ],
             toppings: ['ham','salami','perpperoni','mozzarella'],
             options: ['pepperoncini','tomato','onion','lettuce'],
         },{
             name: 'pesto panini',
-            price: '10.95',
+            prices: [
+                {
+                    size: null,
+                    price: '10.95',
+                }
+            ],
             toppings: ['pesto','fresh mozzarella','tomato','basil','field greens'],
         },
     ],
     calzones: [
         {
             name: 'spinach',
-            price: '11.95',
+            prices: [
+                {
+                    size: null,
+                    price: '11.95',
+                }
+            ],
             toppings: ['spinach','ricotta','garlic','mozzarella'],
         },{
             name: 'pesto',
-            price: '14.95',
+            prices: [
+                {
+                    size: null,
+                    price: '14.95',
+                }
+            ],
             toppings: ['pesto','chicken','calamata olive','tomato','garlic','mozzarella'],
         },{
             name: 'sausage & mushroom',
-            price: '13.95',
+            prices: [
+                {
+                    size: null,
+                    price: '13.95',
+                }
+            ],
             toppings: ['suasage','mushroom','ricotta','garlic','mozzarella'],
         },
     ],
     kids: [
         {
             name: 'meatballs',
-            price: '4.50',
+            prices: [
+                {
+                    size: null,
+                    price: '4.50',
+                }
+            ],
             toppings: ['meatballs','mozzarella','tomato sauce'],
         },{
             name: 'tortizza',
-            price: '3.50',
+            prices: [
+                {
+                    size: null,
+                    price: '3.50',
+                }
+            ],
             toppings: ['flour tortilla','pepperoni','mozzarella'],
         },{
             name: 'chicken tenders',
-            price: '5.95',
+            prices: [
+                {
+                    size: null,
+                    price: '5.95',
+                }
+            ],
             toppings: ['breaded chicken breast cutlets'],
             options: ['ranch','ketchup','BBQ sauce'],
         },{
             name: 'hot \'n cheesy sammy',
-            price: '3.50',
+            prices: [
+                {
+                    size: null,
+                    price: '3.50',
+                }
+            ],
             toppings: ['italian roll','mozzarella'],
         },
     ],
     desserts: [
         {
             name: 'ice cream delight',
-            price: '3.50',
+            prices: [
+                {
+                    size: null,
+                    price: '3.50',
+                }
+            ],
             toppings: ['vanilla ice cream','chocolate syrup','rainbow sprinkles'],
         },{
             name: 'cookie monster',
-            price: '8.95',
+            prices: [
+                {
+                    size: null,
+                    price: '8.95',
+                }
+            ],
             toppings: ['chocolate chip cookie baked inside sweetened pizza dough','vanilla ice cream','brown suger',
                        'cinnamon','maple syrup'],
         },{
             name: 'apple pizazz',
-            price: '8.95',
+            prices: [
+                {
+                    size: null,
+                    price: '8.95',
+                }
+            ],
             toppings: ['apple pie filling','walnuts','cinnamon','vanilla ice cream'],
         },{
             name: 'cookie \'n cream',
-            price: '5.95',
+            prices: [
+                {
+                    size: null,
+                    price: '5.95',
+                }
+            ],
             toppings: ['half pound chocolate chip or macadamia nut cookie','vanilla ice cream'],
             options: ['ask about our cookie of the month']
         },

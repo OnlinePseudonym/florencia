@@ -3,7 +3,7 @@ import Nav from "./nav";
 import Landing from "./landing";
 import Location from './location';
 import About from "./about";
-import Menu from "./menu";
+import MenuTabs from "./menu_tabs";
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
         <Nav />
         <Landing />
         <Location />
-        <Menu />
+        <MenuTabs />
         <About />
       </div>
     );

@@ -10,22 +10,31 @@ class GoogleMap extends Component {
         this.state = {
             apiKey: 'AIzaSyC5bZISw7DpIBF2w1h8Y2IOybj5YWZG4VU',
             center: { lat: 33.3164068, lng: -112.0034161 },
-            zoom: 15,
+            zoom: 13,
             text: 'FPB',
             mapOptions: {
                 styles: [
                     {
-                        "featureType": "landscape",
-                        "elementType": "labels",
+                        "featureType": "all",
                         "stylers": [
                             {
-                                "visibility": "off"
+                                "saturation": 0
+                            },
+                            {
+                                "hue": "#e7ecf0"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "stylers": [
+                            {
+                                "saturation": -70
                             }
                         ]
                     },
                     {
                         "featureType": "transit",
-                        "elementType": "labels",
                         "stylers": [
                             {
                                 "visibility": "off"
@@ -34,7 +43,6 @@ class GoogleMap extends Component {
                     },
                     {
                         "featureType": "poi",
-                        "elementType": "labels",
                         "stylers": [
                             {
                                 "visibility": "off"
@@ -43,56 +51,12 @@ class GoogleMap extends Component {
                     },
                     {
                         "featureType": "water",
-                        "elementType": "labels",
                         "stylers": [
                             {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "labels.icon",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "stylers": [
-                            {
-                                "hue": "#00aaff"
+                                "visibility": "simplified"
                             },
                             {
-                                "saturation": -100
-                            },
-                            {
-                                "gamma": 2.15
-                            },
-                            {
-                                "lightness": 12
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "visibility": "on"
-                            },
-                            {
-                                "lightness": 24
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "lightness": 57
+                                "saturation": -60
                             }
                         ]
                     }
