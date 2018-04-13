@@ -20,7 +20,7 @@ const Menu = (props) => {
     return (
         <div className="menu">
             <h2 className="menu-title">{props.name}</h2>
-            {(props.name.includes('Pizza') && <div className="menu-header"><span className="menu-header-sizes"><span className="menu-header-size">Small - 10"</span><span className="menu-header-size">Medium - 12"</span><span className="menu-header-size">Large - 14"</span><span className="menu-header-size">Extra Large - 16"</span></span></div>)}
+            {(props.name.includes('Pizza') && <div className="menu-header"><span className="menu-header-size">Small - 10"</span><span className="menu-header-size">Medium - 12"</span><span className="menu-header-size">Large - 14"</span><span className="menu-header-size">Extra Large - 16"</span></div>)}
             {output}
         </div>
     )

@@ -1,14 +1,15 @@
 .landing {
-    height: 100vh;
+    height: calc(100vh + 3rem);
     background: url("../images/bg-dark.jpg") center center;
     background-size: cover;
     display: grid;
     align-content: center;
     justify-items: center;
+    position: relative;
 }
 
 .landing--title-primary {
-    color: #d04a3a;
+    color: #B03E3E;
     text-shadow: 1px 1px 5px #111111b0;
     font-size: 4rem;
     width: 100%;
@@ -30,11 +31,16 @@
     display: block;
     content: '';
     height: .25rem;
-    background: linear-gradient(to var(--direction, left), #111, transparent);
+    background: linear-gradient(to var(--direction, left), #BA7525, transparent);
 }
 
 .landing--title-secondary:after {
     --direction: right;
+}
+
+.landing--divider {
+    position: absolute;
+    bottom: 0;
 }
 
 @media only screen and (min-width: 400px) {

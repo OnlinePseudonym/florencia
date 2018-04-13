@@ -3,11 +3,13 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import menuData from './menu-data';
 import Menu from './menu';
 import PizzaTabs from './pizza_tabs';
+import Divider from './divider';
 import './menu.css';
 
 const MenuTabs = () => {
     return (
         <Tabs id="menu">
+            <Divider className="menu--divider" fill="#fff" />
             <TabList className="menu--tabs-list">
                 <Tab className="menu--tabs-list-item">Appetizers</Tab>
                 <Tab className="menu--tabs-list-item">Salads</Tab>

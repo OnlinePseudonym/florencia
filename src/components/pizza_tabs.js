@@ -4,12 +4,12 @@ import Menu from './menu';
 
 const Pizzas = (props) => {
     return (
-        <Tabs className="pizza--tabs">
-            <TabList className="menu--tabs-list pizza--tab-list">
-                <Tab className="menu--tabs-list-item pizza--tab-item">Traditional</Tab>
-                <Tab className="menu--tabs-list-item pizza--tab-item">Olive Oil</Tab>
-                <Tab className="menu--tabs-list-item pizza--tab-item">Pesto</Tab>
-                <Tab className="menu--tabs-list-item pizza--tab-item">Ranch</Tab>
+        <Tabs>
+            <TabList className="menu--tabs-list">
+                <Tab className="menu--tabs-list-item">Traditional</Tab>
+                <Tab className="menu--tabs-list-item">Olive Oil</Tab>
+                <Tab className="menu--tabs-list-item">Pesto</Tab>
+                <Tab className="menu--tabs-list-item">Ranch</Tab>
             </TabList>
 
             <TabPanel>

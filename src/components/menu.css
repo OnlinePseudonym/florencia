@@ -1,32 +1,98 @@
-.menu {
+.react-tabs {
+    color: var(--navy);
+}
+
+.menu--divider {
+    background: var(--navy);
+}
+
+/** Tab style **/
+
+ .menu--tabs-list {
+    width: calc(100vw - (100vw - 100%));
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+    grid-gap: .25rem;
+}
+
+.menu--tabs-list-item {
+    padding: 1rem 0;
+    background: var(--navy);
     color: #fff;
-    width: 100vw;
-    max-width: 800px;
-    background: #334969;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.menu--tabs-list-item:hover {
+    background: var(--yellow);
+    color: var(--navy);
+}
+
+.react-tabs__tab--selected {
+    background: var(--yellow);
+    color: var(--navy);
+}
+
+@media only screen and (min-width: 350px) {
+    .menu--tabs-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .menu--tabs-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .menu--tabs-list-item {
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .menu--tabs-list {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+/** Menu style **/
+
+.react-tabs__tab-panel--selected {
+    display: grid;
+    justify-content: center;
+    font-family: serif;
+}
+
+.menu {
+    width: calc(100vw - (100vw - 100%));
+    max-width: 700px;
+    border: 2px solid var(--navy);
     display: grid;
     grid-template-columns: 1fr;
 }
 
 .menu-title {
+    padding: 2rem;
     grid-column: 1 / -1;
-    padding: 1rem;
-    justify-self: center;
+    text-align: center;
 }
-
-/** header style **/
 
 .menu-header {
-    padding: 1rem;
     grid-column: 1 / -1;
     display: grid;
+    grid-auto-flow: column;
     justify-content: center;
+    grid-gap: 2rem;
+    padding: 1rem;
 }
 
-.menu-header-sizes {
-    display: grid;
-    grid-auto-flow: column;
-    grid-gap: 2rem;
-    justify-items: center;
+@media only screen and (min-width: 500px) {
+    .menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /** Item style **/
@@ -37,78 +103,17 @@
     padding: 1rem;
     justify-items: center;
 }
-
 .menu--item__name {
-    grid-row: 1;
     text-transform: Capitalize;
 }
-
-.menu--item__prices {
-    display: grid;
-    grid-auto-flow: column;
-    grid-gap: 1rem;
-}
-
-.menu--item__price {
-    font-weight: 400;
-}
-
 .menu--item__desc {
     margin: .5rem 0;
     font-size: .75rem;
     text-align: center;
     white-space: pre-line;
 }
-
-.menu--item__addition {
-    grid-column: 1;
-    font-size: .75rem;
-}
-.menu--item__addition-price {
-    font-weight: 600;
-}
-
-/** Tab style **/
-
-.react-tabs {
-    background: #223147;
-}
-
-.menu--tabs-list {
-    background: #223147;
-    width: calc(100vw - (100vw - 100%));
-    padding: 0;
-}
-
-.menu--tabs-list {
-    list-style-type: none;
+.menu--item__prices {
     display: grid;
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-}
-.menu--tabs-list-item {
-    padding: 1rem;
-    color: #fff;
-    cursor: pointer;
-    transition: all .2s;
-}
-.menu--tabs-list-item:hover {
-    color: #e1e1e1;
-    text-decoration: underline;
-}
-
-.react-tabs__tab--selected {
-    color: #d04a3a;
-}
-
-.react-tabs__tab-panel--selected {
-    display: grid;
-    justify-content: center;
-}
-
-@media only screen and (min-width: 500px) {
-    .menu {
-        grid-template-columns: 1fr 1fr;
-    }
+    grid-auto-flow: column;
+    grid-gap: 1rem;
 }

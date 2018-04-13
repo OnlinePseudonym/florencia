@@ -4,7 +4,7 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 7fr 1fr 1fr 1fr;
-    background: #223147f0;
+    background: var(--navy);
     padding: 1rem;
     align-items: center;
     justify-items: center;
@@ -15,7 +15,7 @@
     justify-self: start;
   }
   .nav--logo > a {
-    color: #d04a3a;
+    color: var(--red);
     text-decoration: none;
   }
   

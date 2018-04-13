@@ -1,3 +1,5 @@
+
+
 .location {
     background: url("../images/hours-bg.jpg") center center;
     background-size: cover;
@@ -18,7 +20,7 @@
     grid-column: 1 / -1;
     padding: 2rem .5rem;
     text-align: center;
-    background: #223147;
+    background: var(--navy);
 }
 
 .address, .operating-hours {
