@@ -2,8 +2,8 @@ import React from 'react';
 
 const Divider = (props) => {
     return (
-        <svg className={`divider ${props.className}`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polygon fill={props.fill} points="0,100 100,0 100,100"/>
+        <svg className={`divider ${props.className}`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <polygon points="0,1000 1000,0 1000,1000"/>
         </svg>
     )
 }

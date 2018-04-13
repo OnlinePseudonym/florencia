@@ -6,33 +6,32 @@
     color: #fff;
     display: grid;
     grid-template-columns: 1fr;
-}
-
-.hours {
-    align-items: center;
-    justify-items: center;
-    display: grid;
-    grid-template-columns: 1;
     font-weight: 400;
 }
 
-.hours--title {
+.location__content {
+    align-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1;
+}
+
+.location__title {
+    font-weight: inherit;    
+    font-size: 2.5rem;
+    text-transform: uppercase;
     grid-column: 1 / -1;
-    padding: 2rem .5rem;
+    padding: 2rem 0;
     text-align: center;
     background: var(--navy);
 }
 
-.address, .operating-hours {
+.address, .hours {
     margin: 2rem;
 }
 
-.operating-hours {
-    font-weight: 600;
-}
-
-.hours-open {
-    font-weight: 400;
+.hours {
+    text-align: center;
 }
 
 @media only screen and (min-width: 500px) {

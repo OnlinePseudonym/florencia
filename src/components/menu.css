@@ -1,9 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,400i,700i');
+
+
 .react-tabs {
     color: var(--navy);
-}
-
-.menu--divider {
-    background: var(--navy);
 }
 
 /** Tab style **/
@@ -63,7 +62,7 @@
 .react-tabs__tab-panel--selected {
     display: grid;
     justify-content: center;
-    font-family: serif;
+
 }
 
 .menu {

@@ -5,18 +5,18 @@ import './location.css';
 const Hours = () => {
     return (
         <div id="location" className="location">
-            <h2 className="hours--title">HOURS AND LOCATION</h2>
-            <div className="hours">
+            <h2 className="location__title">HOURS AND LOCATION</h2>
+            <div className="location__content">
                 <div className="address">
-                    <p className="address-txt">3646 E Ray Rd,<br />Phoenix, AZ, 85044</p>
-                    <p className="address-txt">480-704-7404</p>
+                    <p>3646 E Ray Rd,<br />Phoenix, AZ, 85044</p>
+                    <p>480-704-7404</p>
                 </div>
-                <div className="operating-hours">
-                    <div>Mon - Wed: <span className="hours-open">4pm - 9pm</span></div>
-                    <div>Thursday: <span className="hours-open"> 11am - 9pm</span></div>
-                    <div>Friday: <span className="hours-open"> 11am - 10pm</span></div>
-                    <div>Saturday: <span className="hours-open"> 11am - 10pm</span></div>
-                    <div>Sunday: <span className="hours-open"> 11am - 9pm</span></div>
+                <div className="hours">
+                    <div>Mon - Wed: <span>4pm - 9pm</span></div>
+                    <div>Thursday: <span> 11am - 9pm</span></div>
+                    <div>Friday: <span> 11am - 10pm</span></div>
+                    <div>Saturday: <span> 11am - 10pm</span></div>
+                    <div>Sunday: <span> 11am - 9pm</span></div>
                 </div>
             </div>
             <GoogleMap />

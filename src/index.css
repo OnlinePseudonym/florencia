@@ -7,8 +7,10 @@
 
 html {
     box-sizing: border-box;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+/*     font-family: sans-serif;
+    font-weight: 600; */
 }
 *,*:before,*:after {
     box-sizing: inherit;
@@ -18,4 +20,17 @@ html {
 .divider {
     height: 3rem;
     width: 100%;
+}
+.divider--blue {
+    fill: var(--navy);
+}
+.divider--white {
+    fill: #fff;
+}
+.divider--bottom {
+    position: absolute;
+    bottom: 0;
+}
+.divider--blue-background {
+    background: var(--navy);
 }
