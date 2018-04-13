@@ -16,13 +16,8 @@
     grid-template-columns: 1;
 }
 
-.location__title {
-    font-weight: inherit;    
-    font-size: 2.5rem;
-    text-transform: uppercase;
+.location__section-title {
     grid-column: 1 / -1;
-    padding: 2rem 0;
-    text-align: center;
     background: var(--navy);
 }
 

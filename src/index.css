@@ -34,3 +34,11 @@ html {
 .divider--blue-background {
     background: var(--navy);
 }
+
+.section-title {
+    font-weight: inherit;    
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2rem 0;
+}

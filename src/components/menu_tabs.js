@@ -10,15 +10,16 @@ const MenuTabs = () => {
     return (
         <Tabs id="menu">
             <Divider className="divider--white divider--blue-background" fill="#fff" />
-            <TabList className="menu--tabs-list">
-                <Tab className="menu--tabs-list-item">Appetizers</Tab>
-                <Tab className="menu--tabs-list-item">Salads</Tab>
-                <Tab className="menu--tabs-list-item">Pizzas</Tab>
-                <Tab className="menu--tabs-list-item">Sandwiches</Tab>
-                <Tab className="menu--tabs-list-item">Paninis</Tab>
-                <Tab className="menu--tabs-list-item">Calzones</Tab>
-                <Tab className="menu--tabs-list-item">Kids</Tab>
-                <Tab className="menu--tabs-list-item">Desserts</Tab>
+            <h2 className="section-title">Menu</h2>
+            <TabList className="menu-btns">
+                <Tab className="menu-btns__btn">Appetizers</Tab>
+                <Tab className="menu-btns__btn">Salads</Tab>
+                <Tab className="menu-btns__btn">Pizzas</Tab>
+                <Tab className="menu-btns__btn">Sandwiches</Tab>
+                <Tab className="menu-btns__btn">Paninis</Tab>
+                <Tab className="menu-btns__btn">Calzones</Tab>
+                <Tab className="menu-btns__btn">Kids</Tab>
+                <Tab className="menu-btns__btn">Desserts</Tab>
             </TabList>
 
             <TabPanel>

@@ -5,7 +5,7 @@ import './location.css';
 const Hours = () => {
     return (
         <div id="location" className="location">
-            <h2 className="location__title">HOURS AND LOCATION</h2>
+            <h2 className="section-title location__section-title">hours and location</h2>
             <div className="location__content">
                 <div className="address">
                     <p>3646 E Ray Rd,<br />Phoenix, AZ, 85044</p>

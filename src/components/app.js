@@ -8,7 +8,7 @@ import MenuTabs from "./menu_tabs";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Nav />
         <Landing />
         <Location />
