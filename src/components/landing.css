@@ -9,7 +9,7 @@
 }
 
 .landing__title {
-    color: #B03E3E;
+    color: var(--red);
     text-shadow: 1px 1px 5px #111111b0;
     font-size: 4rem;
     width: 100%;
@@ -31,11 +31,11 @@
     display: block;
     content: '';
     height: .25rem;
-    background: linear-gradient(to var(--direction, left), #BA7525, transparent);
+    background: linear-gradient(to left, var(--yellow), transparent);
 }
 
 .landing__title--secondary:after {
-    --direction: right;
+    background: linear-gradient(to right, var(--yellow), transparent);
 }
 
 @media only screen and (min-width: 400px) {

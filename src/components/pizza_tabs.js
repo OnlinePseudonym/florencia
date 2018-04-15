@@ -5,11 +5,11 @@ import Menu from './menu';
 const Pizzas = (props) => {
     return (
         <Tabs>
-            <TabList className="menu--tabs-list">
-                <Tab className="menu--tabs-list-item">Traditional</Tab>
-                <Tab className="menu--tabs-list-item">Olive Oil</Tab>
-                <Tab className="menu--tabs-list-item">Pesto</Tab>
-                <Tab className="menu--tabs-list-item">Ranch</Tab>
+            <TabList className="menu-btns">
+                <Tab className="menu-btns__btn">Traditional</Tab>
+                <Tab className="menu-btns__btn">Olive Oil</Tab>
+                <Tab className="menu-btns__btn">Pesto</Tab>
+                <Tab className="menu-btns__btn">Ranch</Tab>
             </TabList>
 
             <TabPanel>

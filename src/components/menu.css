@@ -3,6 +3,8 @@
 
 .react-tabs {
     color: var(--navy);
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 /** Tab style **/
@@ -51,11 +53,11 @@
     }
 }
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
     .menu-btns {
         grid-template-columns: repeat(8, 1fr);
     }
-}
+} */
 
 /** Menu style **/
 
