@@ -3,7 +3,7 @@
     --red: #B03E3E;
     --maroon: #701111;
     --yellow: #BA7525;
-
+    scroll-behavior: smooth;
 }
 
 html {
