@@ -17,6 +17,7 @@
 }
 
 .location__section-title {
+    padding-top: 3.5rem;
     grid-column: 1 / -1;
     background: var(--navy);
 }

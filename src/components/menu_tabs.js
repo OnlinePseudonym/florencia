@@ -9,7 +9,7 @@ import './menu.css';
 const MenuTabs = () => {
     return (
         <div className="menu-tabs" id="menu">
-            <Divider className="divider--white divider--blue-background" fill="#fff" />
+            <Divider className="divider--grey divider--blue-background" fill="#fff" />
             <h2 className="section-title">Menu</h2>
             <Tabs>
                 <TabList className="menu-btns">

@@ -3,12 +3,14 @@
     --red: #B03E3E;
     --maroon: #701111;
     --yellow: #BA7525;
+
 }
 
 html {
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    background: #eee;
 /*     font-family: sans-serif;
     font-weight: 600; */
 }
@@ -18,14 +20,14 @@ html {
 }
 
 .divider {
-    height: 3rem;
+    height: 7rem;
     width: 100%;
 }
 .divider--blue {
     fill: var(--navy);
 }
-.divider--white {
-    fill: #fff;
+.divider--grey {
+    fill: #eee;
 }
 .divider--bottom {
     position: absolute;
@@ -36,8 +38,8 @@ html {
 }
 
 .section-title {
-    font-weight: inherit;    
-    font-size: 2.5rem;
+    font-weight: 400;    
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     padding: 2rem 0;

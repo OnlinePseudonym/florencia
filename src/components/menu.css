@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,400i,700i');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display:400');
 
 .react-tabs {
     color: var(--navy);
@@ -21,21 +20,27 @@
 
 .menu-btns__btn {
     padding: 1rem 0;
-    background: var(--navy);
-    color: #fff;
+    background: #f7f7f7;
+/*     color: #fff; */
+    color: #676d77;
     text-align: center;
     cursor: pointer;
     transition: all .2s;
 }
 
 .menu-btns__btn:hover {
-    background: var(--yellow);
+   /*  background: var(--yellow); */
+/*     color: var(--navy); */
+    background: #fff;
     color: var(--navy);
 }
 
 .react-tabs__tab--selected {
-    background: var(--yellow);
+    border-left: 8px solid var(--navy);
+    background: #fff;
     color: var(--navy);
+/*     background: var(--yellow); */
+/*     color: var(--navy); */
 }
 
 @media only screen and (min-width: 350px) {
@@ -49,7 +54,7 @@
         grid-template-columns: repeat(4, 1fr);
     }
     .menu-btns__btn {
-        border-radius: 4px;
+        /* border-radius: 4px; */
     }
 }
 
@@ -73,6 +78,7 @@
     border: 2px solid var(--navy);
     display: grid;
     grid-template-columns: 1fr;
+    background: #fff;
 }
 
 .menu__title {
