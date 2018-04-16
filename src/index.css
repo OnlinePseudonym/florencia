@@ -22,6 +22,7 @@ html {
 .divider {
     height: 7rem;
     width: 100%;
+    grid-column: 1 / -1;
 }
 .divider--blue {
     fill: var(--navy);
@@ -35,6 +36,9 @@ html {
 }
 .divider--blue-background {
     background: var(--navy);
+}
+.divider--grey-background {
+    background: #eee;
 }
 
 .section-title {
