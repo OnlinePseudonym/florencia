@@ -2,6 +2,7 @@
   "name": "florencia",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.kevintreynolds.com/projects/florencia",
   "dependencies": {
     "google-map-react": "^0.34.0",
     "react": "^16.3.1",
