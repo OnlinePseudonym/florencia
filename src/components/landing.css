@@ -45,6 +45,11 @@
     color: var(--yellow);
     border: 2px solid var(--yellow);
     padding: 1rem 2rem;
+    transition: all .25s;
+}
+.landing__button:hover {
+    color: #fff;
+    background: var(--yellow);
 }
 
 @media only screen and (min-width: 400px) {

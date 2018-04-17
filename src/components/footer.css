@@ -1,0 +1,37 @@
+.footer {
+    display: grid;
+    grid-template-columns: auto 1fr 150px;
+    justify-items: center;
+    align-items: center;
+    color: var(--light-blue);
+}
+
+.footer--logo {
+    color: var(--red);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer__content {
+    display: grid;
+    justify-items: center;
+}
+.footer__email {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer--icon {
+    margin: 0 1rem;
+    transition: .2s all;
+}
+.footer--icon:hover {
+    opacity: 1;
+}
+.footer--icon path {
+    fill: var(--light-blue);
+    transition: .3s all;
+}
+.footer--icon:hover path {
+    fill: var(--navy);
+}

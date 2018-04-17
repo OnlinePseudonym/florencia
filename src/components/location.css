@@ -22,7 +22,7 @@
     background: var(--navy);
 }
 
-.contact-icons {
+.contact--icons {
     margin: 1rem 0;
     width: 200px;
     display: flex;
@@ -33,6 +33,9 @@
 .icon {
     height: 2.5rem;
     width: 2.5rem;
+}
+.icon:hover path {
+    fill: var(--light-blue);
 }
 .email-icon {
     height: 3rem;

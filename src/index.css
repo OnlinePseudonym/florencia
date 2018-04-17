@@ -1,5 +1,6 @@
 :root {
     --navy: #111F36;
+    --light-blue: #737c8a;
     --red: #B03E3E;
     --maroon: #701111;
     --yellow: #BA7525;
@@ -47,4 +48,8 @@ html {
     text-transform: uppercase;
     text-align: center;
     padding: 2rem 0;
+}
+
+.icon path {
+    fill: #fff;
 }

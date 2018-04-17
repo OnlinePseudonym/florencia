@@ -4,6 +4,7 @@ import Landing from "./landing";
 import Location from './location';
 import About from "./about";
 import MenuTabs from "./menu_tabs";
+import Footer from './footer';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Location />
         <MenuTabs />
         <About />
+        <Footer />
       </div>
     );
   }

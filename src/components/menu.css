@@ -22,7 +22,7 @@
     padding: 1rem 0;
     background: #f7f7f7;
 /*     color: #fff; */
-    color: #676d77;
+    color: var(--light-blue);
     text-align: center;
     cursor: pointer;
     transition: all .2s;

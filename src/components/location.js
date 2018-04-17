@@ -10,7 +10,7 @@ const Hours = () => {
         <div id="location" className="location">
             <h2 className="section-title location__section-title">hours and location</h2>
             <div className="location__content">
-                <div className="contact-icons">
+                <div className="contact--icons">
                     <a href="https://www.facebook.com/Florencia-Pizza-Bistro-154152167958314/" target="_blank"><Facebook /></a>
                     <a href="https://www.instagram.com/florenciapizza/" target="_blank"><Instagram /></a>
                     <a href="mailto:florenciapizzabistro@msn.com"><Email /></a>
