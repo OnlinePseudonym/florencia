@@ -22,8 +22,28 @@
     background: var(--navy);
 }
 
+.contact-icons {
+    margin: 1rem 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.email-icon {
+    height: 3rem;
+    width: 3rem;
+}
 .address, .hours {
     margin: 2rem;
+}
+.phone, .address__link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .hours {
