@@ -1,9 +1,11 @@
 .footer {
     display: grid;
-    grid-template-columns: auto 1fr 150px;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
     color: var(--light-blue);
+    width: calc(100vw - (100vw - 100%));
 }
 
 .footer--logo {
@@ -34,4 +36,10 @@
 }
 .footer--icon:hover path {
     fill: var(--navy);
+}
+
+@media only screen and (min-width: 550px) {
+    .footer {
+        grid-template-columns: auto 1fr 150px;
+    }
 }
