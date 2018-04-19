@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Menu from './menu';
+import CreateYourOwn from './create_your_own';
 
 const Pizzas = (props) => {
     return (
@@ -10,6 +11,7 @@ const Pizzas = (props) => {
                 <Tab className="menu-btns__btn">Olive Oil</Tab>
                 <Tab className="menu-btns__btn">Pesto</Tab>
                 <Tab className="menu-btns__btn">Ranch</Tab>
+                <Tab className="menu-btns__btn menu-btns__btn--create">Create Your Own</Tab>
             </TabList>
 
             <TabPanel>
@@ -23,6 +25,9 @@ const Pizzas = (props) => {
             </TabPanel>
             <TabPanel>
                 <Menu name="Ranch Pizzas" menu={props.menu.ranch} />
+            </TabPanel>
+            <TabPanel>
+                <CreateYourOwn />
             </TabPanel>
         </Tabs>
     )
